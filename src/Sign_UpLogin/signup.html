@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="auth.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Welcome To Africare</h1>
+        <p class="header-text">Sign up for free</p>
+    </header>
+    <main>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter email." />
+                <p class="error-box" id="email-error-box"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter password." />
+                <p class="error-box" id="password-error-box"></p>
+            </div>
+
+            <div class="btns-container">
+                <input type="submit" class="submit-btn" id="sign-in-btn" value="Sign In" />
+                <input type="submit" class="submit-btn" id="create-account-btn" value="Create Account" />
+            </div>
+        </form>
+    </main>
+</body>
+<script src="/dist/bundle.js" type="module"></script>
+
+</html>

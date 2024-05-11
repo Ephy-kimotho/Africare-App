@@ -1,0 +1,106 @@
+/* GOOGLE FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #007FFF;
+}
+
+.header-title{
+    text-transform: uppercase;
+    color:#007BA7;
+}
+
+.header-text{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+}
+
+.form-group input {
+    padding: 0.6rem;
+    border-radius: 4px;
+    margin-top: 5px;
+    border:1px solid #000;
+}
+
+.form-group input::placeholder{
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.form-group:focus{
+    border-color:#00563B;
+}
+
+.error-box{
+        display:block;
+        height:10px ;
+        border-radius: 5px;
+        padding:5px;
+        color: #FF0800;
+        font-size: 12px;
+    
+}
+
+.btns-container{
+    text-align: center;
+}
+
+.submit-btn{
+    border:none;
+    border-radius: 10px;
+    padding: 14px 80px;
+    color:#FFFFFF;
+    background-color: #007FFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin:10px 0 20px;
+    display: block;
+    width:100%;
+    box-shadow: 0px 5px 5px #9b9999;
+    transition: position 500ms ease;
+}
+
+.submit-btn:hover{
+   position: relative;
+   top:5px;
+   box-shadow: none;
+}
+
+.logged-in-view{
+    display: none;
+}
+
+.logged-out-view{
+    display: block;
+}
+
+
+
+
